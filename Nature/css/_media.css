@@ -121,6 +121,7 @@
 
 	.footer__container {
 		flex-wrap: wrap;
+		text-align: center;
 	}
 
 	.footer__column:last-child {
@@ -130,7 +131,7 @@
 	.footer__copy {
 		max-width: 50%;
 	}
-}
+
 
 
 @media (max-width: 576px) {
@@ -290,6 +291,9 @@
 	.footer__links {
 		margin-top: 30px;
 	}
+	.footer__link {
+    font-size: 16px;
+}
 
 	.main-slider__media img {
 		width: 100%;
